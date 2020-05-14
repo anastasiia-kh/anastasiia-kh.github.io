@@ -1,0 +1,22 @@
+.input-form_text {
+  margin-top: 28px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.input-text-area {
+  width: 100%;
+}
+.input-form_text_block:hover {
+  border-bottom: 2px solid rgba(110, 109, 109, 0.721) !important;
+}
+
+.input-form_text_block:focus {
+  outline: none !important;
+}
+.input-form_text_block {
+    width: 100%;
+    padding: 0 0 10px 10px !important;
+  }
+

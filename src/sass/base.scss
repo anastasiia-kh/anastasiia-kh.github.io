@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  color: #111111;
+  font-size: 14px;
+//  font-family: 'Raleway', sans-serif;
+    ;
+
+}
+
+.page {
+   font-family: 'Raleway', sans-serif;
+  margin: 70px 70px 0 70px ;
+}
+
+.content {
+  width: 100%;
+  // max-width: 1900px !important;
+  // width: 1900px !important;
+}
+
+.container {
+  max-width: 1600px !important;
+
+  // margin-right: 0px !important;
+  // margin-left: 0px !important;
+}
+
+.card {
+  border: none ;
+}
+
+body,
+ul,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+input,
+button {
+  font-size: 1rem;
+    color: black !important;
+    font-family: 'Raleway',
+    sans-serif;
+    ;
+
+}
+
+.text-bold {
+  font-weight: 800;
+}
+
+.text-regular {
+  font-weight: 500;
+}
+
+.page-main {
+  display: flex;
+  justify-content: center;
+}
+
+.no-padding {
+  padding: 0 !important;
+}
+
+
+
+
+@import '../app/components/Footer/Footer.scss'

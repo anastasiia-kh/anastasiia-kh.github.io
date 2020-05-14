@@ -1,0 +1,34 @@
+.header_container {
+	height: 80px;
+	border-bottom: 1.5px solid black;
+	margin: 0 55px !important;
+	font-family: 'Raleway', sans-serif;
+	position: relative;
+	width: 100%;
+
+	&_content {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		align-self: center;
+		align-content: center;
+		width: 100%;
+		z-index: 50 !important;
+	}
+}
+.header_nav {
+	padding-bottom: 0 !important;
+	position: fixed;
+}
+
+.navbar {
+	background-color: white;
+	position: relative;
+	width: 100%;
+}
+
+.collapse {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+}

@@ -1,0 +1,13 @@
+.input-form_email {
+    width: 45%;
+  &_block {
+    width: 100%;
+    border: none;
+    border-bottom:1px solid grey;
+    outline: transparent;
+    padding: 0 0 10px 10px !important;
+  }
+}
+.input-form_email_block:hover {
+  border-bottom: 2px solid rgba(110, 109, 109, 0.721);
+}

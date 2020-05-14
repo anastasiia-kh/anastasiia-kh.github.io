@@ -1,0 +1,23 @@
+.header-left {
+	display: flex;
+	justify-content: space-between;
+	width: 40%;
+	margin-left: 400px;
+	position: absolute;
+	margin-top: 15px;
+}
+.navigate-link {
+	color: black!important;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 300;
+	letter-spacing: 0.5px;
+}
+.navigate-link:hover {
+	text-decoration: none;
+	color: rgb(144, 142, 142);
+}
+
+.active{
+	color: grey !important;
+}

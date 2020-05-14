@@ -1,0 +1,22 @@
+.thanks-text_footer {
+	margin-top: 10px;
+	font-size: 14px;
+	visibility: hidden;
+}
+
+.hidden-text_footer {
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
+
+.page-footer_row-btn {
+	border: none;
+	font-weight: 700 !important;
+}
+
+.page-footer_row-btn:hover {
+	background-color: rgb(76, 76, 76) !important;
+}

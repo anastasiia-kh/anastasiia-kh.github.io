@@ -1,0 +1,15 @@
+.input-form_name{
+  width: 45%;
+  &_block{
+    display: flex;
+    left: 0;
+    width: 100%;
+    border: none;
+    border-bottom:1px solid grey;
+    outline: transparent;
+    padding: 0 0 10px 10px !important;
+}
+}
+.input-form_name_block:hover {
+  border-bottom: 2px solid rgba(110, 109, 109, 0.721);
+}
