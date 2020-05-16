@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import './About.scss';
 import { Container } from 'react-bootstrap';
-
+import './About.scss';
 
 export class About extends Component {
   render() {
@@ -23,6 +22,5 @@ export class About extends Component {
         </div>
       </Container>
     )
-
   }
 }

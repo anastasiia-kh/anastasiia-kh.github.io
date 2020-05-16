@@ -1,5 +1,5 @@
-import './Footer_input.scss';
 import React, { Component } from 'react';
+import './Footer_input.scss';
 
 export class FooterInput extends Component {
 	constructor(props) {

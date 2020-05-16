@@ -1,25 +1,23 @@
 import React, { Component } from 'react';
-import './Contact_form_inputText.scss';
 import { Form, } from 'react-bootstrap';
-
+import './Contact_form_inputText.scss';
 
 export class InputText extends Component {
-    submitHandler(eventObject) {
-		eventObject.preventDefault();
+  submitHandler(eventObject) {
+    eventObject.preventDefault();
   }
 
-  constructor(props){
+  constructor(props) {
     super(props);
     this.changeHandler = this.changeHandler.bind(this);
-
   }
-  
+
   changeHandler(e) {
     const value = e.currentTarget.value;
     this.props.callback(value);
   }
   render() {
-		return (
+    return (
       <div onSubmit={this.submitHandler} className="input-form input-form_text">
         <Form.Group className="input-text-area">
           <textarea
@@ -27,13 +25,13 @@ export class InputText extends Component {
             required
             id='text'
             onBlur={this.changeHandler}
-						as="textarea"
-						rows="5"
+            as="textarea"
+            rows="5"
             placeholder="Type your message here..."
-            style={{ border: 'none', borderBottom: '1px solid grey', borderRadius: "0", outline:"none !important"} }
-					/>
-				</Form.Group>	
-			</div>	
-		);
-	}
+            style={{ border: 'none', borderBottom: '1px solid grey', borderRadius: "0", outline: "none !important" }}
+          />
+        </Form.Group>
+      </div>
+    );
+  }
 }

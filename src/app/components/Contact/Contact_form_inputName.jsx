@@ -2,20 +2,20 @@ import React, { Component } from 'react';
 import './Contact_form_inputName.scss';
 
 export class InputName extends Component {
-    submitHandler(eventObject) {
+	submitHandler(eventObject) {
 		eventObject.preventDefault();
-  }
+	}
 
-  constructor(props){
-    super(props);
-    this.changeHandler = this.changeHandler.bind(this);
-  }
-  
-  changeHandler(e) {
-    const value = e.currentTarget.value;
-    this.props.callback(value);
-  }
-  render() {
+	constructor(props) {
+		super(props);
+		this.changeHandler = this.changeHandler.bind(this);
+	}
+
+	changeHandler(e) {
+		const value = e.currentTarget.value;
+		this.props.callback(value);
+	}
+	render() {
 		return (
 			<div onSubmit={this.submitHandler} className="input-form input-form_name">
 				<input
@@ -25,7 +25,7 @@ export class InputName extends Component {
 					onBlur={this.changeHandler}
 					id="name"
 					type={this.props.type}
-					placeholder="Name" 
+					placeholder="Name"
 				/>
 			</div>
 		);

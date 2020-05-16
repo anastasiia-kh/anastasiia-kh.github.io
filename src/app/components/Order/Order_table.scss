@@ -21,17 +21,14 @@
 	object-fit: cover;
 }
 .modal-item_order-close {
-	// background-color: transparent;
 	border: none !important;
-	outline: none!important;
-	
+	outline: none !important;
+
 	&-img {
 		width: 40px;
-    position: absolute;
-    top: -22px;
-    right: -10px;
-		z-index: 80;
-		// background-image: url(./../../../img/close.png)
+		position: absolute;
+		top: -22px;
+		right: -10px;
 	}
 }
 
@@ -101,7 +98,7 @@
 	padding: 0 50px !important;
 }
 .center-table-card {
-	height: 315px;
+	height: 385px;
 	padding-right: 5px !important;
 	padding-left: 5px !important;
 	margin-bottom: 20px;
@@ -130,8 +127,14 @@
 	height: 35%;
 	z-index: 0;
 }
+.center-table-card_item:hover .card-title {
+	text-overflow: unset;
+	display: block;
+	white-space: normal;
+	overflow: visible;
+}
 .item-img {
-	height: 80%;
+	height: 75%;
 	object-fit: cover;
 	object-position: center;
 	z-index: 2;
@@ -145,9 +148,12 @@
 	position: absolute;
 }
 .card-title {
-	height: 20%;
 	z-index: 4;
 	background-color: white;
+	text-overflow: ellipsis;
+	display: block;
+	white-space: nowrap;
+	overflow: hidden;
 }
 .center-table-card_icon {
 	font-size: 30px;
@@ -155,4 +161,12 @@
 	position: absolute;
 	bottom: 10px;
 	right: 20px;
+}
+.order-modal_header-text {
+	position: absolute;
+	padding-left: 20px;
+	font-size: 29px;
+	font-weight: 700;
+	margin-top: 20px;
+	margin-bottom: 0;
 }

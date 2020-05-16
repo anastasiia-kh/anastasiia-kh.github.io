@@ -1,7 +1,7 @@
-import './Footer_Form.scss';
 import React, { Component } from 'react';
 import { FooterInput } from './Footer_input.jsx';
 import { Form, Button } from 'react-bootstrap';
+import './Footer_Form.scss';
 
 export class FooterForm extends Component {
 	constructor(props) {

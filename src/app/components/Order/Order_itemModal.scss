@@ -1,7 +1,7 @@
 .order-modal {
 	position: absolute;
-	width: 700px;
-	height: 1100px;
+	width: 500px;
+	height: 800px;
 	top: -150px;
 	outline: transparent;
 	z-index: 90;
@@ -27,40 +27,50 @@
 		width: 100%;
 		height: 50%;
 		&_btn {
-		outline: none !important;
-    border: none;
-    border-radius: 0;
-    position: absolute;
-    width: 100%;
-    height: 65px;
-    background-color: white !important;
-    margin-top: 230px;
-    font-size: 23px;
-    color: grey !important;
-    left: 0;
+			outline: none !important;
+			border: none;
+			border-radius: 0;
+			position: absolute;
+			width: 100%;
+			height: 45px;
+			background-color: white !important;
+			margin-top: 188px;
+			font-size: 23px;
+			color: grey !important;
+			left: 0;
+			position: absolute;
+			top: 0;
+			font-size: 17px;
+			padding-right: 20px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
 		}
 	}
 	&-header {
-		font-size: 30px;
+		font-size: 22px;
 		font-weight: 700;
 		margin-top: 100px;
 		position: absolute;
 		width: 100%;
 		display: flex;
 		flex-direction: column;
-		align-items: self-end;
 		align-items: self-start;
 		align-self: start;
 		text-align: start;
-		padding: 50px 40px 0 60px;
+		padding: 50px 40px 0 20px;
+		&_price {
+			margin-top: 15px;
+			font-weight: 300;
+		}
+		&_text {
+			font-weight: 400;
+			font-size: 20px;
+			margin-top: 30px;
+		}
 	}
 }
 
-.order-modal-right_header_bottom {
-	font-weight: 400;
-	font-size: 24px;
-	margin-top: 50px;
-}
 .order-modal-header::after {
 	content: '';
 	border: 0.3px solid rgba(181, 180, 180, 0.612);
@@ -75,16 +85,16 @@
 	display: flex;
 	flex-direction: row;
 	position: absolute;
-	bottom: 115px;
+	bottom: 82px;
 	width: 100%;
 	justify-content: space-between;
-	padding: 0 60px;
-	height: 60px;
+	padding: 0 20px;
 	&-left {
-		font-size: 28px;
+		font-size: 18px;
 		margin-bottom: 0 !important;
 		display: flex;
 		align-items: center;
+		padding: 0 5px;
 	}
 	&-right {
 		display: flex;
@@ -93,67 +103,71 @@
 		justify-content: space-between;
 		align-items: center;
 		font-size: 25px;
+		padding-right: 15px;
 	}
 }
 .minus_btn,
 .plus_btn {
-	outline: none !important;
-	border: 4px solid black;
-	border-radius: 50%;
-	width: 49px;
-	background-color: white;
+    outline: none !important;
+    border: 0px solid grey;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    cursor: not-allowed !important;
 }
 .btn_count-icon {
 	font-weight: 700;
 }
 .item_btn {
-	width: 94%;
-	height: 65px;
+	width: 90%;
+	height: 42px;
 	position: absolute;
 	bottom: 30px;
 	color: white !important;
-	font-size: 30px !important;
+	font-size: 21px !important;
 	font-weight: 800 !important;
 	margin-left: 20px;
+	display: flex !important;
+	justify-content: center;
 	cursor: not-allowed !important;
+	align-items: center;
+	padding: 0 !important;
 }
 .plus-icon_btn {
 	color: white;
-	font-size: 30px;
+	font-size: 20px;
+	margin-right: 10px;
 }
 .message {
-	font-size: 15px;
+	font-size: 12px;
 	position: absolute;
-	bottom: 0;
+	bottom: 7px;
 	display: flex;
 	justify-content: center;
 	width: 100%;
 	margin-bottom: 0 !important;
 }
-.order-modal-item_btn-text{
+.order-modal-item_btn-text {
 	visibility: visible;
 }
-.modal_text_block{
-	    visibility: hidden;
+.modal_text_block {
+	visibility: hidden;
 
-	&-top{
-outline: none !important;
-    border: 0.5px solid rgba(186, 185, 185, 0.585);
-    width: 86%;
-    /* margin-top: 10px; */
-    height: 65px;
-    padding: 5px 0 0 10px;
-    /* margin: 0 40px; */
-    position: absolute;
-    left: 60px;
-    top: 10px;
+	&-top {
+		outline: none !important;
+		border: 0.5px solid rgba(186, 185, 185, 0.585);
+		width: 88%;
+		height: 40px;
+		padding: 5px 0 0 10px;
+		position: absolute;
+		left: 20px;
+		top: 10px;
 	}
-	&-bottom{
-		    margin-top: 24px;
-    position: absolute;
-    left: 60px;
-    font-size: 10px;
+	&-bottom {
+		margin-top: 27px;
+		position: absolute;
+		left: 30px;
+		font-size: 10px;
+	}
 }
-	}
-
-	

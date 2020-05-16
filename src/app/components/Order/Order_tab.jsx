@@ -1,12 +1,8 @@
 import React, { Component } from 'react';
-import './Order_modalUser.scss';
-import './Order_tab.scss';
 import { Nav } from 'react-bootstrap';
 import { OrderModalUser } from './Order_modalUser.jsx'
-
-
-
-
+import './Order_modalUser.scss';
+import './Order_tab.scss';
 
 export class OrderTab extends Component {
   constructor(props) {

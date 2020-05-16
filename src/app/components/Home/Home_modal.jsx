@@ -3,9 +3,7 @@ import './Home_socialBlock.scss';
 import './Home_modal.scss';
 
 
-
 export class HomeModal extends Component {
-
 
   render() {
     const { show, bg } = this.props;
@@ -14,8 +12,8 @@ export class HomeModal extends Component {
         display: (show) ? null : 'none',
         backgroundColor: bg || 'rgba(255, 255, 255, 0.8)',
       }
-    }  
-  
+    }
+
     return (
       <div className="modal-wrapper" id='modal-wrapper' style={styles.modal}>
         <div className='modal-main'>
@@ -34,8 +32,8 @@ export class HomeModal extends Component {
             </a>
             <p className='modal-right_text'>celebrationscakes8347 </p>
           </div>
-       </div>
-          </div>
+        </div>
+      </div>
     )
   }
 }

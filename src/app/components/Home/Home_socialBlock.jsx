@@ -1,5 +1,4 @@
 import './Home_socialBlock.scss';
-import '../../../sass/grid.scss'
 import React, { Component } from 'react';
 import { CardDeck, Card, Modal, Carousel } from 'react-bootstrap';
 import { HomeModal } from './Home_modal.jsx'
@@ -99,7 +98,7 @@ export class SocialBlock extends Component {
             </Carousel>
             <span
               className="glyphicon glyphicon-remove-sign modal-item-close"
-              onClick={this.toggleModal.bind(this)}> X
+              onClick={this.toggleModal.bind(this, 'https://static.parastorage.com/services/skins/2.1229.80/images/wysiwyg/core/themes/base/popup_close_x.png' )}> X
             </span>
           </HomeModal>
         </div>

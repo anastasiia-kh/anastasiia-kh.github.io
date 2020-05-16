@@ -1,43 +1,43 @@
 .home-container {
-  padding: 0 !important;
-  margin: 0;
-  width: 100%;
-  margin-top: 50px;
+	padding: 0 !important;
+	margin: 0;
+	width: 100%;
+	margin-top: 50px;
 }
 
 .home_header {
-  padding-top: 3px;
-  margin-bottom: 30px;
-  font-family: 'Palatino';
-  letter-spacing: 4.1px !important;
-  font-size: 17px !important;
-  font-weight: 200 !important;
-  font-family: 'Palatino' !important;
+	padding-top: 3px;
+	margin-bottom: 30px;
+	font-family: 'Palatino';
+	letter-spacing: 4.1px !important;
+	font-size: 17px !important;
+	font-weight: 200 !important;
+	font-family: 'Palatino' !important;
 }
 
 .home-center_content {
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 .home_center-content {
-  &_block {
-    margin-top: 15px;
-    margin-bottom: 15px !important;
-    width: 100%;
-    height: 120px;
-    position: relative;
-    background-color: rgba(238, 238, 238, 0.83) !important;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    border: none !important;
-  }
+	&_block {
+		margin-top: 15px;
+		margin-bottom: 15px !important;
+		width: 100%;
+		height: 120px;
+		position: relative;
+		background-color: rgba(238, 238, 238, 0.83) !important;
+		display: flex;
+		justify-content: center;
+		text-align: center;
+		border: none !important;
+	}
 }
 
 .center-box-color_text {
-  font-weight: 600;
-  font-size: 25px !important;
-  letter-spacing: 1.35px;
-  margin-bottom: 0;
+	font-weight: 600;
+	font-size: 25px !important;
+	letter-spacing: 1.35px;
+	margin-bottom: 0;
 }

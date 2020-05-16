@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
-import './Order_itemModal.scss';
 import { Button } from 'react-bootstrap';
-
-
+import './Order_itemModal.scss';
 
 export class OrderItemModal extends Component {
   constructor() {
@@ -28,17 +26,6 @@ export class OrderItemModal extends Component {
     }
   }
 
-  Plus() {
-    var total = 1
-    total = total+1
-    console.log(total)
-
-
-  
-
-  }
-
-
   render() {
     const { show, bg } = this.props;
     const styles = {
@@ -54,10 +41,9 @@ export class OrderItemModal extends Component {
           <div className="order-modal-item">
             {this.props.children}
           </div>
-            <div className='order-modal-header'>
-            <p className='order-modal-right_header_text'>celebrationscakes8347</p>
-            <p className='order-modal-right_header_price'>$70</p>
-            <p className='order-modal-right_header_bottom'>
+          <div className='order-modal-header'>
+            <p className='order-modal-header_price'>$70</p>
+            <p className='order-modal-header_text'>
               Special requests?
             </p>
             <button onClick={this.ModalArea} className="order-modal-item_btn">
@@ -85,15 +71,15 @@ export class OrderItemModal extends Component {
                 <span className='btn_count-icon'>-</span>
               </button>
               <div id='result' className='counter'>1</div>
-              <button onClick={this.Plus()}  className='plus_btn'>
+              <button className='plus_btn'>
                 <span className='btn_count-icon'>+</span>
               </button>
             </div>
           </div>
           <Button disabled className="item_btn btn-dark"><span className='plus-icon plus-icon_btn'>+</span> ADD TO MY ORDER</Button>
           <p className='message'>Online ordering unavailable</p>
-          </div>
         </div>
+      </div>
     )
   }
 }

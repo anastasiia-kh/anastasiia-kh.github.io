@@ -10,6 +10,7 @@
 		position: relative;
 		margin-left: 0px !important;
 		border: none !important;
+		padding: 0!important;
 	}
 
 	&_icons:last-of-type {
@@ -46,12 +47,12 @@
 	justify-content: center;
 	flex-direction: row;
 	align-self: center;
+	height: auto;
 }
 .modal-wrapper {
 	position: fixed;
 	top: 100%;
 	left: 50%;
-	padding: 0 200px;
 	width: 100vw;
 	height: 100vh;
 	background-color: #fff !important;
@@ -67,19 +68,20 @@
 }
 
 .modal-item-close {
-	font-size: 47px;
-	transform: scaleX(1.5);
-	font-weight: 100;
-	color: #535252;
-	right: 85px;
-	position: fixed;
-	cursor: pointer;
-	height: 50px;
-	position: absolute;
-	top: 0px;
-	margin-top: 25px;
-	margin-right: 0px;
-	z-index: 20;
+    font-size: 30px;
+    transform: scaleX(1.5);
+    font-weight: 100;
+    color: #535252;
+    right: 85px;
+    position: fixed;
+    cursor: pointer;
+    height: 50px;
+    position: absolute;
+    top: 0px;
+    margin-right: 0px;
+    z-index: 20;
+		right: 50px;
+		
 }
 .right-span {
 	display: flex;
@@ -132,8 +134,8 @@
 .carousel-control-next-icon,
 .carousel-control-prev-icon {
 	display: inline-block;
-	width: 80px !important;
-	height: 80px !important;
+	width: 40px !important ;
+	height: 40px !important ;
 	background: no-repeat 50%/100% 100%;
 }
 .carousel-control-prev-icon {

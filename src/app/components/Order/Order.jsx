@@ -1,11 +1,9 @@
 import React, { Component } from 'react';
-import './Order.scss';
 import { Container, CardDeck, Row, Col, Tab } from 'react-bootstrap';
 import { OrderTable } from './Order_table.jsx'
 import { OrderTab } from './Order_tab.jsx'
-import { OrderCart} from './Order_cart.jsx'
-
-
+import { OrderCart } from './Order_cart.jsx'
+import './Order.scss';
 
 export class Order extends Component {
   render() {
@@ -42,7 +40,7 @@ export class Order extends Component {
             <p className='order-page_hidden-container_block_header'>Hey, you`re on mobile!</p>
             <p className='order-page_hidden-container_block_main'>Our online ordering is the best viewed in fullscreen</p>
             <button className='order-page_hidden-container_block_btn'>OPEN FULLSCREEN</button>
-        </div>
+          </div>
         </div>
       </Container>
     )

@@ -1,9 +1,7 @@
-import './Home_topBlock.scss';
-import '../../../sass/grid.scss'
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { CardDeck, Card, Button } from 'react-bootstrap';
-
+import './Home_topBlock.scss';
 
 export class TopBlock extends Component {
   render() {

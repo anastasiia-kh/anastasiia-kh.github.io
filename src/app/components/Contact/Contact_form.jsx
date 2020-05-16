@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-import './Contact_form.scss';
 import { Form, Button } from 'react-bootstrap';
 import { InputName } from './Contact_form_inputName.jsx';
 import { InputEmail } from './Contact_form_inputEmail.jsx';
 import { InputText } from './Contact_form_inputText.jsx';
+import './Contact_form.scss';
+
 
 
 export class ContactForm extends Component {

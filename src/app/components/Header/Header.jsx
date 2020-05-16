@@ -1,8 +1,8 @@
-import './Header.scss';
 import React, { Component } from 'react';
 import { Navbar, Container } from 'react-bootstrap';
 import { HeaderSocial } from './Header_socialBlock.jsx'
 import { HeaderNavbar } from './Header_navbar.jsx'
+import './Header.scss';
 
 
 export class Header extends Component {

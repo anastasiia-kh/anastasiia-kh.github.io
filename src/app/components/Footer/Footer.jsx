@@ -12,7 +12,7 @@ export class Footer extends Component {
       email: ''
     };
   }
-  
+
   submitHandler(eventObject) {
     eventObject.preventDefault();
     document.getElementById('thanksText').style.visibility = 'visible'

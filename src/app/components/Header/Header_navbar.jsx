@@ -1,6 +1,6 @@
-import './Header_navbar.scss';
 import React, { Component } from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
+import './Header_navbar.scss';
 
 export class HeaderNavbar extends Component {
 	render() {

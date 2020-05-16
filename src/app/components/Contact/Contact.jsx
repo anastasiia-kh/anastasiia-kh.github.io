@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import './Contact.scss';
 import { Container, CardDeck } from 'react-bootstrap';
 import { ContactForm } from './contact_form.jsx';
+import './Contact.scss';
+
 
 export class Contact extends Component {
 	render() {

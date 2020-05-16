@@ -1,11 +1,9 @@
 import React, { Component } from 'react';
-import './Order_itemModal.scss';
-import './Order_table.scss';
-import { CardDeck, Col, Tab,} from 'react-bootstrap';
+import { CardDeck, Col, Tab, } from 'react-bootstrap';
 import { Card } from 'react-bootstrap';
 import { OrderItemModal } from './Order_itemModal.jsx'
-
-
+import './Order_itemModal.scss';
+import './Order_table.scss';
 
 export class OrderTable extends Component {
 	constructor(props) {
@@ -15,6 +13,7 @@ export class OrderTable extends Component {
 			show: false,
 			modalOpen: props.opened,
 			pic: props.picture,
+			headText: props.header
 		};
 		this.ToggleClick = this.ToggleClick.bind(this);
 		this.OpenItem = this.OpenItem.bind(this);
@@ -34,14 +33,15 @@ export class OrderTable extends Component {
 		item.style.display = 'block'
 	}
 
-	toggleModal(pic) {
+	toggleModal(pic, headText) {
 		this.backgroundModal()
 		const state = this.state.modalOpen;
+
 		this.setState({
 			modalOpen: !state,
 			pic,
+			headText,
 		});
-		
 	}
 
 	backgroundModal() {
@@ -54,7 +54,7 @@ export class OrderTable extends Component {
 	}
 
 	render() {
-		const { modalOpen, pic } = this.state;
+		const { modalOpen, pic, headText } = this.state;
 		const { show, bg } = this.props;
 		const styles = {
 			modal: {
@@ -72,11 +72,11 @@ export class OrderTable extends Component {
 					</div>
 					<OrderItemModal
 						show={modalOpen}
-						onClose={this.toggleModal.bind(this)}
 					>
 						<img className='order-item-img' src={pic} />
+						<p className='order-modal_header-text'>{headText}</p>
 						<button className="modal-item_order-close"
-							onClick={this.toggleModal.bind(this)}>
+							onClick={this.toggleModal.bind(this, 'https://static.parastorage.com/services/skins/2.1229.80/images/wysiwyg/core/themes/base/popup_close_x.png', 'close')}>
 							<img className='modal-item_order-close-img' src="https://static.parastorage.com/services/skins/2.1229.80/images/wysiwyg/core/themes/base/popup_close_x.png" alt="" />
 						</button>
 					</OrderItemModal>
@@ -91,7 +91,7 @@ export class OrderTable extends Component {
 					</div>
 					<CardDeck className="home_top-content">
 						<Col className="center-table-card" md={4} sm={6}>
-							<Card onClick={this.toggleModal.bind(this, "https://static.wixstatic.com/media/2b3e494e1c9e461e912fb23f55fd40a7.jpg")} className="center-table-card_item">
+							<Card onClick={this.toggleModal.bind(this, "https://static.wixstatic.com/media/2b3e494e1c9e461e912fb23f55fd40a7.jpg", "Flowers Wedding Cake")} className="center-table-card_item">
 								<Card.Img
 									className="item-img"
 									variant="center"
@@ -106,7 +106,7 @@ export class OrderTable extends Component {
 							</Card>
 						</Col>
 						<Col className="center-table-card" md={4} sm={6}>
-							<Card onClick={this.toggleModal.bind(this, "https://static.wixstatic.com/media/6b949b0522f3416287785bbb4d6de040.jpg")} className="center-table-card_item">
+							<Card onClick={this.toggleModal.bind(this, "https://static.wixstatic.com/media/6b949b0522f3416287785bbb4d6de040.jpg", "Golden Wedding Cake")} className="center-table-card_item">
 								<Card.Img
 									className="item-img"
 									variant="center"
@@ -121,7 +121,7 @@ export class OrderTable extends Component {
 							</Card>
 						</Col>
 						<Col className="center-table-card" md={4} sm={6}>
-							<Card onClick={this.toggleModal.bind(this, "https://static.wixstatic.com/media/c0090f9e8a854fb79099d5b8dba768ea.jpg")} className="center-table-card_item">
+							<Card onClick={this.toggleModal.bind(this, "https://static.wixstatic.com/media/c0090f9e8a854fb79099d5b8dba768ea.jpg", "Romantic Wedding Cake")} className="center-table-card_item">
 								<Card.Img
 									className="item-img"
 									variant="center"
@@ -136,7 +136,7 @@ export class OrderTable extends Component {
 							</Card>
 						</Col>
 						<Col className="center-table-card" md={4} sm={6}>
-							<Card onClick={this.toggleModal.bind(this, "https://static.wixstatic.com/media/37080ad729504a0ca56cbdbc40d8f14f.jpg")} className="center-table-card_item">
+							<Card onClick={this.toggleModal.bind(this, "https://static.wixstatic.com/media/37080ad729504a0ca56cbdbc40d8f14f.jpg", "Classic Wedding Cake")} className="center-table-card_item">
 								<Card.Img
 									className="item-img"
 									variant="center"
@@ -151,7 +151,7 @@ export class OrderTable extends Component {
 							</Card>
 						</Col>
 						<Col className="center-table-card" md={4} sm={6}>
-							<Card onClick={this.toggleModal.bind(this, 'https://static.wixstatic.com/media/ab7f5c832b8142f48fdf12081eee26d7.jpg')} className="center-table-card_item">
+							<Card onClick={this.toggleModal.bind(this, 'https://static.wixstatic.com/media/ab7f5c832b8142f48fdf12081eee26d7.jpg', "Pearls Wedding Cake")} className="center-table-card_item">
 								<Card.Img
 									className="item-img"
 									variant="center"
@@ -166,7 +166,7 @@ export class OrderTable extends Component {
 							</Card>
 						</Col>
 						<Col className="center-table-card" md={4} sm={6}>
-							<Card onClick={this.toggleModal.bind(this, 'https://static.wixstatic.com/media/2fea2ea622f3423aa070670fd24ddd12.jpg')} className="center-table-card_item">
+							<Card onClick={this.toggleModal.bind(this, 'https://static.wixstatic.com/media/2fea2ea622f3423aa070670fd24ddd12.jpg', "Flowers Pink Wedding Cake")} className="center-table-card_item">
 								<Card.Img
 									className="item-img"
 									variant="center"
@@ -194,7 +194,7 @@ export class OrderTable extends Component {
 					</div>
 					<CardDeck className="home_top-content">
 						<Col className="center-table-card" md={4} sm={6}>
-							<Card onClick={this.toggleModal.bind(this, 'https://static.wixstatic.com/media/6ed53323e3024cd28ef879c523048e6b.jpg', )} className="center-table-card_item">
+							<Card onClick={this.toggleModal.bind(this, 'https://static.wixstatic.com/media/6ed53323e3024cd28ef879c523048e6b.jpg', "Makaroons Cake")} className="center-table-card_item">
 								<Card.Img
 									className="item-img"
 									variant="center"
@@ -209,7 +209,7 @@ export class OrderTable extends Component {
 							</Card>
 						</Col>
 						<Col className="center-table-card" md={4} sm={6}>
-							<Card onClick={this.toggleModal.bind(this, 'https://static.wixstatic.com/media/1be12e34eaa64c70a84750f2e34535ff.jpg')} className="center-table-card_item">
+							<Card onClick={this.toggleModal.bind(this, 'https://static.wixstatic.com/media/1be12e34eaa64c70a84750f2e34535ff.jpg', "Makaroons Chocolate Cake")} className="center-table-card_item">
 								<Card.Img
 									className="item-img"
 									variant="center"
@@ -224,7 +224,7 @@ export class OrderTable extends Component {
 							</Card>
 						</Col>
 						<Col className="center-table-card" md={4} sm={6}>
-							<Card onClick={this.toggleModal.bind(this, "https://static.wixstatic.com/media/df5e444641064caa8e8c98a1781f8f36.jpg")} className="center-table-card_item">
+							<Card onClick={this.toggleModal.bind(this, "https://static.wixstatic.com/media/df5e444641064caa8e8c98a1781f8f36.jpg", "Ice Cream Cone Cake")} className="center-table-card_item">
 								<Card.Img
 									className="item-img"
 									variant="center"
@@ -239,7 +239,7 @@ export class OrderTable extends Component {
 							</Card>
 						</Col>
 						<Col className="center-table-card" md={4} sm={6}>
-							<Card onClick={this.toggleModal.bind(this, "https://static.wixstatic.com/media/df5e444641064caa8e8c98a1781f8f36.jpg")} className="center-table-card_item">
+							<Card onClick={this.toggleModal.bind(this, "https://static.wixstatic.com/media/df5e444641064caa8e8c98a1781f8f36.jpg", "Crazy Donuts and Meringue Cake")} className="center-table-card_item">
 								<Card.Img
 									className="item-img"
 									variant="center"
@@ -254,7 +254,7 @@ export class OrderTable extends Component {
 							</Card>
 						</Col>
 						<Col className="center-table-card" md={4} sm={6}>
-							<Card onClick={this.toggleModal.bind(this, 'https://static.wixstatic.com/media/4c745d0527e94298b696f8f996dbc832.jpg')} className="center-table-card_item">
+							<Card onClick={this.toggleModal.bind(this, 'https://static.wixstatic.com/media/4c745d0527e94298b696f8f996dbc832.jpg', "Crazy Golden Chocolate Cake")} className="center-table-card_item">
 								<Card.Img
 									className="item-img"
 									variant="center"
@@ -269,7 +269,7 @@ export class OrderTable extends Component {
 							</Card>
 						</Col>
 						<Col className="center-table-card" md={4} sm={6}>
-							<Card onClick={this.toggleModal.bind(this, 'https://static.wixstatic.com/media/314a1d70f2e8463ba1bf217d732149f4.jpg')} className="center-table-card_item">
+							<Card onClick={this.toggleModal.bind(this, 'https://static.wixstatic.com/media/314a1d70f2e8463ba1bf217d732149f4.jpg', "Murble & Donuts Cake Cake")} className="center-table-card_item">
 								<Card.Img
 									className="item-img"
 									variant="center"
@@ -287,7 +287,7 @@ export class OrderTable extends Component {
 						</Col>
 					</CardDeck>
 				</Tab.Pane>
-			</Tab.Content>
+			</Tab.Content >
 		);
 	}
 }
