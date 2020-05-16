@@ -47769,10 +47769,10 @@ var Contact = /*#__PURE__*/function (_Component) {
 
 /***/ }),
 
-/***/ "./src/app/components/Contact/Contact_form_inputEmail.jsx":
-/*!****************************************************************!*\
-  !*** ./src/app/components/Contact/Contact_form_inputEmail.jsx ***!
-  \****************************************************************/
+/***/ "./src/app/components/Contact/Contact_form_input-email.jsx":
+/*!*****************************************************************!*\
+  !*** ./src/app/components/Contact/Contact_form_input-email.jsx ***!
+  \*****************************************************************/
 /*! exports provided: InputEmail */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -47781,8 +47781,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "InputEmail", function() { return InputEmail; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _Contact_form_inputEmail_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Contact_form_inputEmail.scss */ "./src/app/components/Contact/Contact_form_inputEmail.scss");
-/* harmony import */ var _Contact_form_inputEmail_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Contact_form_inputEmail_scss__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _Contact_form_input_email_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Contact_form_input-email.scss */ "./src/app/components/Contact/Contact_form_input-email.scss");
+/* harmony import */ var _Contact_form_input_email_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Contact_form_input_email_scss__WEBPACK_IMPORTED_MODULE_1__);
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -47858,10 +47858,10 @@ var InputEmail = /*#__PURE__*/function (_Component) {
 
 /***/ }),
 
-/***/ "./src/app/components/Contact/Contact_form_inputEmail.scss":
-/*!*****************************************************************!*\
-  !*** ./src/app/components/Contact/Contact_form_inputEmail.scss ***!
-  \*****************************************************************/
+/***/ "./src/app/components/Contact/Contact_form_input-email.scss":
+/*!******************************************************************!*\
+  !*** ./src/app/components/Contact/Contact_form_input-email.scss ***!
+  \******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -47869,10 +47869,10 @@ var InputEmail = /*#__PURE__*/function (_Component) {
 
 /***/ }),
 
-/***/ "./src/app/components/Contact/Contact_form_inputName.jsx":
-/*!***************************************************************!*\
-  !*** ./src/app/components/Contact/Contact_form_inputName.jsx ***!
-  \***************************************************************/
+/***/ "./src/app/components/Contact/Contact_form_input-name.jsx":
+/*!****************************************************************!*\
+  !*** ./src/app/components/Contact/Contact_form_input-name.jsx ***!
+  \****************************************************************/
 /*! exports provided: InputName */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -47881,8 +47881,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "InputName", function() { return InputName; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _Contact_form_inputName_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Contact_form_inputName.scss */ "./src/app/components/Contact/Contact_form_inputName.scss");
-/* harmony import */ var _Contact_form_inputName_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Contact_form_inputName_scss__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _Contact_form_input_name_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Contact_form_input-name.scss */ "./src/app/components/Contact/Contact_form_input-name.scss");
+/* harmony import */ var _Contact_form_input_name_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Contact_form_input_name_scss__WEBPACK_IMPORTED_MODULE_1__);
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -47958,10 +47958,10 @@ var InputName = /*#__PURE__*/function (_Component) {
 
 /***/ }),
 
-/***/ "./src/app/components/Contact/Contact_form_inputName.scss":
-/*!****************************************************************!*\
-  !*** ./src/app/components/Contact/Contact_form_inputName.scss ***!
-  \****************************************************************/
+/***/ "./src/app/components/Contact/Contact_form_input-name.scss":
+/*!*****************************************************************!*\
+  !*** ./src/app/components/Contact/Contact_form_input-name.scss ***!
+  \*****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -47969,10 +47969,10 @@ var InputName = /*#__PURE__*/function (_Component) {
 
 /***/ }),
 
-/***/ "./src/app/components/Contact/Contact_form_inputText.jsx":
-/*!***************************************************************!*\
-  !*** ./src/app/components/Contact/Contact_form_inputText.jsx ***!
-  \***************************************************************/
+/***/ "./src/app/components/Contact/Contact_form_input-text.jsx":
+/*!****************************************************************!*\
+  !*** ./src/app/components/Contact/Contact_form_input-text.jsx ***!
+  \****************************************************************/
 /*! exports provided: InputText */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -47982,8 +47982,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/index.js");
-/* harmony import */ var _Contact_form_inputText_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Contact_form_inputText.scss */ "./src/app/components/Contact/Contact_form_inputText.scss");
-/* harmony import */ var _Contact_form_inputText_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_Contact_form_inputText_scss__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _Contact_form_input_text_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Contact_form_input-text.scss */ "./src/app/components/Contact/Contact_form_input-text.scss");
+/* harmony import */ var _Contact_form_input_text_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_Contact_form_input_text_scss__WEBPACK_IMPORTED_MODULE_2__);
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -48068,10 +48068,10 @@ var InputText = /*#__PURE__*/function (_Component) {
 
 /***/ }),
 
-/***/ "./src/app/components/Contact/Contact_form_inputText.scss":
-/*!****************************************************************!*\
-  !*** ./src/app/components/Contact/Contact_form_inputText.scss ***!
-  \****************************************************************/
+/***/ "./src/app/components/Contact/Contact_form_input-text.scss":
+/*!*****************************************************************!*\
+  !*** ./src/app/components/Contact/Contact_form_input-text.scss ***!
+  \*****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -48092,9 +48092,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/index.js");
-/* harmony import */ var _Contact_form_inputName_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Contact_form_inputName.jsx */ "./src/app/components/Contact/Contact_form_inputName.jsx");
-/* harmony import */ var _Contact_form_inputEmail_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Contact_form_inputEmail.jsx */ "./src/app/components/Contact/Contact_form_inputEmail.jsx");
-/* harmony import */ var _Contact_form_inputText_jsx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Contact_form_inputText.jsx */ "./src/app/components/Contact/Contact_form_inputText.jsx");
+/* harmony import */ var _Contact_form_input_name_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Contact_form_input-name.jsx */ "./src/app/components/Contact/Contact_form_input-name.jsx");
+/* harmony import */ var _Contact_form_input_email_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Contact_form_input-email.jsx */ "./src/app/components/Contact/Contact_form_input-email.jsx");
+/* harmony import */ var _Contact_form_input_text_jsx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Contact_form_input-text.jsx */ "./src/app/components/Contact/Contact_form_input-text.jsx");
 /* harmony import */ var _Contact_form_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Contact_form.scss */ "./src/app/components/Contact/Contact_form.scss");
 /* harmony import */ var _Contact_form_scss__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_Contact_form_scss__WEBPACK_IMPORTED_MODULE_5__);
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
@@ -48210,15 +48210,15 @@ var ContactForm = /*#__PURE__*/function (_Component) {
         className: "input-form-top"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "input-form-top-align"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Contact_form_inputName_jsx__WEBPACK_IMPORTED_MODULE_2__["InputName"], {
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Contact_form_input_name_jsx__WEBPACK_IMPORTED_MODULE_2__["InputName"], {
         className: "input-name",
         type: "text",
         callback: this.nameChangeHanler
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Contact_form_inputEmail_jsx__WEBPACK_IMPORTED_MODULE_3__["InputEmail"], {
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Contact_form_input_email_jsx__WEBPACK_IMPORTED_MODULE_3__["InputEmail"], {
         className: "input-email",
         type: "email",
         callback: this.emailChangeHanler
-      }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Contact_form_inputText_jsx__WEBPACK_IMPORTED_MODULE_4__["InputText"], {
+      }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Contact_form_input_text_jsx__WEBPACK_IMPORTED_MODULE_4__["InputText"], {
         className: "input-text",
         type: "text",
         callback: this.textChangeHanler
@@ -48648,7 +48648,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/index.js");
-/* harmony import */ var _Header_socialBlock_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Header_socialBlock.jsx */ "./src/app/components/Header/Header_socialBlock.jsx");
+/* harmony import */ var _Header_social_block_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Header_social_block.jsx */ "./src/app/components/Header/Header_social_block.jsx");
 /* harmony import */ var _Header_navbar_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Header_navbar.jsx */ "./src/app/components/Header/Header_navbar.jsx");
 /* harmony import */ var _Header_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Header.scss */ "./src/app/components/Header/Header.scss");
 /* harmony import */ var _Header_scss__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_Header_scss__WEBPACK_IMPORTED_MODULE_4__);
@@ -48705,7 +48705,7 @@ var Header = /*#__PURE__*/function (_Component) {
         variant: "light"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Navbar"].Toggle, {
         "aria-controls": "responsive-navbar-nav"
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Header_navbar_jsx__WEBPACK_IMPORTED_MODULE_3__["HeaderNavbar"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Header_socialBlock_jsx__WEBPACK_IMPORTED_MODULE_2__["HeaderSocial"], null))));
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Header_navbar_jsx__WEBPACK_IMPORTED_MODULE_3__["HeaderNavbar"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Header_social_block_jsx__WEBPACK_IMPORTED_MODULE_2__["HeaderSocial"], null))));
     }
   }]);
 
@@ -48818,10 +48818,10 @@ var HeaderNavbar = /*#__PURE__*/function (_Component) {
 
 /***/ }),
 
-/***/ "./src/app/components/Header/Header_socialBlock.jsx":
-/*!**********************************************************!*\
-  !*** ./src/app/components/Header/Header_socialBlock.jsx ***!
-  \**********************************************************/
+/***/ "./src/app/components/Header/Header_social_block.jsx":
+/*!***********************************************************!*\
+  !*** ./src/app/components/Header/Header_social_block.jsx ***!
+  \***********************************************************/
 /*! exports provided: HeaderSocial */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -48831,8 +48831,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/index.js");
-/* harmony import */ var _Header_socialBlock_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Header_socialBlock.scss */ "./src/app/components/Header/Header_socialBlock.scss");
-/* harmony import */ var _Header_socialBlock_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_Header_socialBlock_scss__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _Header_social_block_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Header_social_block.scss */ "./src/app/components/Header/Header_social_block.scss");
+/* harmony import */ var _Header_social_block_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_Header_social_block_scss__WEBPACK_IMPORTED_MODULE_2__);
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -48915,10 +48915,10 @@ var HeaderSocial = /*#__PURE__*/function (_Component) {
 
 /***/ }),
 
-/***/ "./src/app/components/Header/Header_socialBlock.scss":
-/*!***********************************************************!*\
-  !*** ./src/app/components/Header/Header_socialBlock.scss ***!
-  \***********************************************************/
+/***/ "./src/app/components/Header/Header_social_block.scss":
+/*!************************************************************!*\
+  !*** ./src/app/components/Header/Header_social_block.scss ***!
+  \************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -48939,9 +48939,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/index.js");
-/* harmony import */ var _Home_socialBlock_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Home_socialBlock.jsx */ "./src/app/components/Home/Home_socialBlock.jsx");
-/* harmony import */ var _Home_topBlock_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Home_topBlock.jsx */ "./src/app/components/Home/Home_topBlock.jsx");
-/* harmony import */ var _Home_bottomBlock_jsx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Home_bottomBlock.jsx */ "./src/app/components/Home/Home_bottomBlock.jsx");
+/* harmony import */ var _Home_social_block_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Home_social_block.jsx */ "./src/app/components/Home/Home_social_block.jsx");
+/* harmony import */ var _Home_top_block_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Home_top_block.jsx */ "./src/app/components/Home/Home_top_block.jsx");
+/* harmony import */ var _Home_bottom_block_jsx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Home_bottom_block.jsx */ "./src/app/components/Home/Home_bottom_block.jsx");
 /* harmony import */ var _Home_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Home.scss */ "./src/app/components/Home/Home.scss");
 /* harmony import */ var _Home_scss__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_Home_scss__WEBPACK_IMPORTED_MODULE_5__);
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
@@ -48992,15 +48992,15 @@ var Home = /*#__PURE__*/function (_Component) {
         className: "page-content home-page"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
         className: "text-center home_header"
-      }, "HANNA BAKES."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Home_topBlock_jsx__WEBPACK_IMPORTED_MODULE_3__["TopBlock"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["CardDeck"], {
+      }, "HANNA BAKES."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Home_top_block_jsx__WEBPACK_IMPORTED_MODULE_3__["TopBlock"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["CardDeck"], {
         className: "home_center-content"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Card"], {
         className: "home_center-content_block"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
         className: "text-center center-box-color_text"
-      }, "ALL CAKES ARE TAILORED TO YOUR TASTE AND STYLE"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Home_bottomBlock_jsx__WEBPACK_IMPORTED_MODULE_4__["BottomBlock"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+      }, "ALL CAKES ARE TAILORED TO YOUR TASTE AND STYLE"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Home_bottom_block_jsx__WEBPACK_IMPORTED_MODULE_4__["BottomBlock"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
         className: "text-center social-header"
-      }, "Follow me on Instagram"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Home_socialBlock_jsx__WEBPACK_IMPORTED_MODULE_2__["SocialBlock"], null)));
+      }, "Follow me on Instagram"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Home_social_block_jsx__WEBPACK_IMPORTED_MODULE_2__["SocialBlock"], null)));
     }
   }]);
 
@@ -49020,10 +49020,10 @@ var Home = /*#__PURE__*/function (_Component) {
 
 /***/ }),
 
-/***/ "./src/app/components/Home/Home_bottomBlock.jsx":
-/*!******************************************************!*\
-  !*** ./src/app/components/Home/Home_bottomBlock.jsx ***!
-  \******************************************************/
+/***/ "./src/app/components/Home/Home_bottom_block.jsx":
+/*!*******************************************************!*\
+  !*** ./src/app/components/Home/Home_bottom_block.jsx ***!
+  \*******************************************************/
 /*! exports provided: BottomBlock */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -49034,8 +49034,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/index.js");
-/* harmony import */ var _Home_bottomBlock_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Home_bottomBlock.scss */ "./src/app/components/Home/Home_bottomBlock.scss");
-/* harmony import */ var _Home_bottomBlock_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_Home_bottomBlock_scss__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _Home_bottom_block_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Home_bottom_block.scss */ "./src/app/components/Home/Home_bottom_block.scss");
+/* harmony import */ var _Home_bottom_block_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_Home_bottom_block_scss__WEBPACK_IMPORTED_MODULE_3__);
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -49109,10 +49109,10 @@ var BottomBlock = /*#__PURE__*/function (_Component) {
 
 /***/ }),
 
-/***/ "./src/app/components/Home/Home_bottomBlock.scss":
-/*!*******************************************************!*\
-  !*** ./src/app/components/Home/Home_bottomBlock.scss ***!
-  \*******************************************************/
+/***/ "./src/app/components/Home/Home_bottom_block.scss":
+/*!********************************************************!*\
+  !*** ./src/app/components/Home/Home_bottom_block.scss ***!
+  \********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -49132,8 +49132,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HomeModal", function() { return HomeModal; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _Home_socialBlock_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Home_socialBlock.scss */ "./src/app/components/Home/Home_socialBlock.scss");
-/* harmony import */ var _Home_socialBlock_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Home_socialBlock_scss__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _Home_social_block_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Home_social_block.scss */ "./src/app/components/Home/Home_social_block.scss");
+/* harmony import */ var _Home_social_block_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Home_social_block_scss__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _Home_modal_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Home_modal.scss */ "./src/app/components/Home/Home_modal.scss");
 /* harmony import */ var _Home_modal_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_Home_modal_scss__WEBPACK_IMPORTED_MODULE_2__);
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
@@ -49230,18 +49230,18 @@ var HomeModal = /*#__PURE__*/function (_Component) {
 
 /***/ }),
 
-/***/ "./src/app/components/Home/Home_socialBlock.jsx":
-/*!******************************************************!*\
-  !*** ./src/app/components/Home/Home_socialBlock.jsx ***!
-  \******************************************************/
+/***/ "./src/app/components/Home/Home_social_block.jsx":
+/*!*******************************************************!*\
+  !*** ./src/app/components/Home/Home_social_block.jsx ***!
+  \*******************************************************/
 /*! exports provided: SocialBlock */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SocialBlock", function() { return SocialBlock; });
-/* harmony import */ var _Home_socialBlock_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Home_socialBlock.scss */ "./src/app/components/Home/Home_socialBlock.scss");
-/* harmony import */ var _Home_socialBlock_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_Home_socialBlock_scss__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Home_social_block_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Home_social_block.scss */ "./src/app/components/Home/Home_social_block.scss");
+/* harmony import */ var _Home_social_block_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_Home_social_block_scss__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/index.js");
@@ -49446,10 +49446,10 @@ var SocialBlock = /*#__PURE__*/function (_Component) {
 
 /***/ }),
 
-/***/ "./src/app/components/Home/Home_socialBlock.scss":
-/*!*******************************************************!*\
-  !*** ./src/app/components/Home/Home_socialBlock.scss ***!
-  \*******************************************************/
+/***/ "./src/app/components/Home/Home_social_block.scss":
+/*!********************************************************!*\
+  !*** ./src/app/components/Home/Home_social_block.scss ***!
+  \********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -49457,10 +49457,10 @@ var SocialBlock = /*#__PURE__*/function (_Component) {
 
 /***/ }),
 
-/***/ "./src/app/components/Home/Home_topBlock.jsx":
-/*!***************************************************!*\
-  !*** ./src/app/components/Home/Home_topBlock.jsx ***!
-  \***************************************************/
+/***/ "./src/app/components/Home/Home_top_block.jsx":
+/*!****************************************************!*\
+  !*** ./src/app/components/Home/Home_top_block.jsx ***!
+  \****************************************************/
 /*! exports provided: TopBlock */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -49471,8 +49471,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/index.js");
-/* harmony import */ var _Home_topBlock_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Home_topBlock.scss */ "./src/app/components/Home/Home_topBlock.scss");
-/* harmony import */ var _Home_topBlock_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_Home_topBlock_scss__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _Home_top_block_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Home_top_block.scss */ "./src/app/components/Home/Home_top_block.scss");
+/* harmony import */ var _Home_top_block_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_Home_top_block_scss__WEBPACK_IMPORTED_MODULE_3__);
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -49549,10 +49549,10 @@ var TopBlock = /*#__PURE__*/function (_Component) {
 
 /***/ }),
 
-/***/ "./src/app/components/Home/Home_topBlock.scss":
-/*!****************************************************!*\
-  !*** ./src/app/components/Home/Home_topBlock.scss ***!
-  \****************************************************/
+/***/ "./src/app/components/Home/Home_top_block.scss":
+/*!*****************************************************!*\
+  !*** ./src/app/components/Home/Home_top_block.scss ***!
+  \*****************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -49837,10 +49837,10 @@ var OrderCart = /*#__PURE__*/function (_Component) {
 
 /***/ }),
 
-/***/ "./src/app/components/Order/Order_itemModal.jsx":
-/*!******************************************************!*\
-  !*** ./src/app/components/Order/Order_itemModal.jsx ***!
-  \******************************************************/
+/***/ "./src/app/components/Order/Order_item_modal.jsx":
+/*!*******************************************************!*\
+  !*** ./src/app/components/Order/Order_item_modal.jsx ***!
+  \*******************************************************/
 /*! exports provided: OrderItemModal */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -49850,8 +49850,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/index.js");
-/* harmony import */ var _Order_itemModal_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Order_itemModal.scss */ "./src/app/components/Order/Order_itemModal.scss");
-/* harmony import */ var _Order_itemModal_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_Order_itemModal_scss__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _Order_item_modal_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Order_item_modal.scss */ "./src/app/components/Order/Order_item_modal.scss");
+/* harmony import */ var _Order_item_modal_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_Order_item_modal_scss__WEBPACK_IMPORTED_MODULE_2__);
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -49997,10 +49997,10 @@ var OrderItemModal = /*#__PURE__*/function (_Component) {
 
 /***/ }),
 
-/***/ "./src/app/components/Order/Order_itemModal.scss":
-/*!*******************************************************!*\
-  !*** ./src/app/components/Order/Order_itemModal.scss ***!
-  \*******************************************************/
+/***/ "./src/app/components/Order/Order_item_modal.scss":
+/*!********************************************************!*\
+  !*** ./src/app/components/Order/Order_item_modal.scss ***!
+  \********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -50008,10 +50008,10 @@ var OrderItemModal = /*#__PURE__*/function (_Component) {
 
 /***/ }),
 
-/***/ "./src/app/components/Order/Order_modalUser.jsx":
-/*!******************************************************!*\
-  !*** ./src/app/components/Order/Order_modalUser.jsx ***!
-  \******************************************************/
+/***/ "./src/app/components/Order/Order_modal_user.jsx":
+/*!*******************************************************!*\
+  !*** ./src/app/components/Order/Order_modal_user.jsx ***!
+  \*******************************************************/
 /*! exports provided: OrderModalUser */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -50021,8 +50021,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/index.js");
-/* harmony import */ var _Order_modalUser_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Order_modalUser.scss */ "./src/app/components/Order/Order_modalUser.scss");
-/* harmony import */ var _Order_modalUser_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_Order_modalUser_scss__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _Order_modal_user_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Order_modal_user.scss */ "./src/app/components/Order/Order_modal_user.scss");
+/* harmony import */ var _Order_modal_user_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_Order_modal_user_scss__WEBPACK_IMPORTED_MODULE_2__);
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -50136,10 +50136,10 @@ var OrderModalUser = /*#__PURE__*/function (_Component) {
 
 /***/ }),
 
-/***/ "./src/app/components/Order/Order_modalUser.scss":
-/*!*******************************************************!*\
-  !*** ./src/app/components/Order/Order_modalUser.scss ***!
-  \*******************************************************/
+/***/ "./src/app/components/Order/Order_modal_user.scss":
+/*!********************************************************!*\
+  !*** ./src/app/components/Order/Order_modal_user.scss ***!
+  \********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -50160,9 +50160,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/index.js");
-/* harmony import */ var _Order_modalUser_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Order_modalUser.jsx */ "./src/app/components/Order/Order_modalUser.jsx");
-/* harmony import */ var _Order_modalUser_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Order_modalUser.scss */ "./src/app/components/Order/Order_modalUser.scss");
-/* harmony import */ var _Order_modalUser_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_Order_modalUser_scss__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _Order_modal_user_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Order_modal_user.jsx */ "./src/app/components/Order/Order_modal_user.jsx");
+/* harmony import */ var _Order_modal_user_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Order_modal_user.scss */ "./src/app/components/Order/Order_modal_user.scss");
+/* harmony import */ var _Order_modal_user_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_Order_modal_user_scss__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _Order_tab_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Order_tab.scss */ "./src/app/components/Order/Order_tab.scss");
 /* harmony import */ var _Order_tab_scss__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_Order_tab_scss__WEBPACK_IMPORTED_MODULE_4__);
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
@@ -50242,7 +50242,7 @@ var OrderTab = /*#__PURE__*/function (_Component) {
         id: "userModal"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "modal-bkg"
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Order_modalUser_jsx__WEBPACK_IMPORTED_MODULE_2__["OrderModalUser"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Order_modal_user_jsx__WEBPACK_IMPORTED_MODULE_2__["OrderModalUser"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
         onClick: this.OpenUserModal,
         className: "d-flex left-menu"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
@@ -50313,9 +50313,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/index.js");
-/* harmony import */ var _Order_itemModal_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Order_itemModal.jsx */ "./src/app/components/Order/Order_itemModal.jsx");
-/* harmony import */ var _Order_itemModal_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Order_itemModal.scss */ "./src/app/components/Order/Order_itemModal.scss");
-/* harmony import */ var _Order_itemModal_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_Order_itemModal_scss__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _Order_item_modal_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Order_item_modal.jsx */ "./src/app/components/Order/Order_item_modal.jsx");
+/* harmony import */ var _Order_item_modal_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Order_item_modal.scss */ "./src/app/components/Order/Order_item_modal.scss");
+/* harmony import */ var _Order_item_modal_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_Order_item_modal_scss__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _Order_table_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Order_table.scss */ "./src/app/components/Order/Order_table.scss");
 /* harmony import */ var _Order_table_scss__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_Order_table_scss__WEBPACK_IMPORTED_MODULE_4__);
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
@@ -50431,7 +50431,7 @@ var OrderTable = /*#__PURE__*/function (_Component) {
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "modal-view-bkg",
         id: "modal-view"
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Order_itemModal_jsx__WEBPACK_IMPORTED_MODULE_2__["OrderItemModal"], {
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Order_item_modal_jsx__WEBPACK_IMPORTED_MODULE_2__["OrderItemModal"], {
         show: modalOpen
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         className: "order-item-img",

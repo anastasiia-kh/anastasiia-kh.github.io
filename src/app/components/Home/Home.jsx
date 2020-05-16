@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { Container, CardDeck, Card } from 'react-bootstrap';
-import { SocialBlock } from './Home_socialBlock.jsx'
-import { TopBlock } from './Home_topBlock.jsx'
-import { BottomBlock } from './Home_bottomBlock.jsx'
+import { SocialBlock } from './Home_social_block.jsx'
+import { TopBlock } from './Home_top_block.jsx'
+import { BottomBlock } from './Home_bottom_block.jsx'
 import './Home.scss';
 
 export class Home extends Component {

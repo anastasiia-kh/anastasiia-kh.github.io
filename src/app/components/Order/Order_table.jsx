@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { CardDeck, Col, Tab, } from 'react-bootstrap';
 import { Card } from 'react-bootstrap';
-import { OrderItemModal } from './Order_itemModal.jsx'
-import './Order_itemModal.scss';
+import { OrderItemModal } from './Order_item_modal.jsx'
+import './Order_item_modal.scss';
 import './Order_table.scss';
 
 export class OrderTable extends Component {

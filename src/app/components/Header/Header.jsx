@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Navbar, Container } from 'react-bootstrap';
-import { HeaderSocial } from './Header_socialBlock.jsx'
+import { HeaderSocial } from './Header_social_block.jsx'
 import { HeaderNavbar } from './Header_navbar.jsx'
 import './Header.scss';
 

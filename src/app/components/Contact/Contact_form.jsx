@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { Form, Button } from 'react-bootstrap';
-import { InputName } from './Contact_form_inputName.jsx';
-import { InputEmail } from './Contact_form_inputEmail.jsx';
-import { InputText } from './Contact_form_inputText.jsx';
+import { InputName } from './Contact_form_input-name.jsx';
+import { InputEmail } from './Contact_form_input-email.jsx';
+import { InputText } from './Contact_form_input-text.jsx';
 import './Contact_form.scss';
 
 

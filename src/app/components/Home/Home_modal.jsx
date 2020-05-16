@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Home_socialBlock.scss';
+import './Home_social_block.scss';
 import './Home_modal.scss';
 
 

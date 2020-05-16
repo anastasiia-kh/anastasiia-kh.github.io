@@ -1,0 +1,146 @@
+.social-container {
+	margin-top: 50px;
+}
+.social-block {
+	margin: 30px 0;
+	width: 100% !important;
+	margin-left: 1px !important;
+
+	&_icons {
+		position: relative;
+		margin-left: 0px !important;
+		border: none !important;
+		padding: 0!important;
+	}
+
+	&_icons:last-of-type {
+		margin-right: 0px !important;
+	}
+}
+.social {
+	&-img {
+		height: 100%;
+		width: 100%;
+	}
+	&-text {
+		position: absolute;
+		background-color: black;
+		width: 100%;
+		height: 100%;
+		color: white;
+		display: flex;
+		justify-content: center;
+		text-align: center;
+		align-items: center;
+		opacity: 0;
+		z-index: 4;
+		font-size: 14px;
+	}
+}
+.social-text:hover {
+	opacity: 0.6;
+	transition: all 0.5s;
+	cursor: pointer;
+}
+.modal-main {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	align-self: center;
+	height: auto;
+}
+.modal-wrapper {
+	position: fixed;
+	top: 100%;
+	left: 50%;
+	width: 100vw;
+	height: 100vh;
+	background-color: #fff !important;
+	border-radius: 1em;
+	top: 0px;
+	left: 0px;
+	padding-top: 50px;
+	outline: transparent;
+	overflow: hidden;
+	z-index: 90;
+	display: flex;
+	justify-content: center;
+}
+
+.modal-item-close {
+    font-size: 30px;
+    transform: scaleX(1.5);
+    font-weight: 100;
+    color: #535252;
+    right: 85px;
+    position: fixed;
+    cursor: pointer;
+    height: 50px;
+    position: absolute;
+    top: 0px;
+    margin-right: 0px;
+    z-index: 20;
+		right: 50px;
+		
+}
+.right-span {
+	display: flex;
+	align-items: center;
+}
+.left-span {
+	width: 100%;
+	position: absolute;
+	left: 0;
+	display: flex;
+	align-items: center;
+	margin-left: 50px;
+}
+.modal-caurusel-item {
+	position: absolute;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+	position: fixed !important;
+	top: 0;
+	bottom: 0;
+	z-index: 1;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-align: center;
+	align-items: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	width: 10% !important;
+	color: #fff;
+	text-align: center;
+	opacity: .5;
+	transition: opacity .15s ease;
+	height: 80%;
+	align-items: center;
+	align-self: center;
+	text-align: center;
+	height: 100%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Breezeicons-actions-22-go-next.svg/512px-Breezeicons-actions-22-go-next.svg.png) !important;
+	background-repeat: no-repeat;
+	color: black;
+	display: flex;
+	align-items: center;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+	display: inline-block;
+	width: 40px !important ;
+	height: 40px !important ;
+	background: no-repeat 50%/100% 100%;
+}
+.carousel-control-prev-icon {
+	transform: rotate(180deg);
+}
+.home_nidden-btn {
+	display: none;
+}

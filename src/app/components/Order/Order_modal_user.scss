@@ -1,0 +1,118 @@
+.user-modal {
+	width: 100vw;
+	height: 100vh;
+	z-index: 9;
+	position: fixed;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	left: 0;
+	z-index: 50;
+	&-block {
+		width: 400px;
+		height: 410px;
+		background-color: white;
+		z-index: 10;
+		position: relative;
+		&_top {
+			width: 100%;
+			height: 40%;
+		}
+		&_top-img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			object-position: center;
+		}
+	}
+	&-block_main {
+		margin-top: 40px;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		align-items: center;
+		&-text_bottom {
+			font-size: 11.5px;
+			color: grey;
+			margin-top: 5px;
+		}
+		&-header {
+			font-size: 20px;
+			letter-spacing: 0.5px;
+			font-weight: 700;
+			margin-bottom: 0px;
+		}
+		&-text {
+			font-size: 12px;
+			margin-bottom: 20px;
+		}
+	}
+	&-block_bottom {
+		width: 100%;
+		height: 30px;
+		background-color: rgba(225, 224, 224, 0.354);
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		position: absolute;
+		bottom: 20px;
+
+		&-text {
+			margin-bottom: 0;
+			font-size: 10.5px;
+		}
+	}
+}
+.modal-bkg {
+	background-color: black;
+	opacity: 0.5;
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+}
+.modal_client-icon {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	transform: translateY(-50%);
+	&_svg {
+		background-color: rgba(255, 255, 255, 0.796);
+		border-radius: 50px;
+	}
+}
+.facebook-icon {
+	width: 20px;
+	height: 20px;
+	left: 40px;
+	position: absolute;
+	transform: translateY(-3px);
+}
+.facebook-btn {
+	background-color: rgb(59, 89, 152) !important;
+	color: white !important;
+	width: 93%;
+	height: 40px;
+	border: 0;
+	position: relative;
+}
+.facebook-btn:hover {
+	box-shadow: 1px 0 5px rgb(38, 55, 91);
+}
+.facebook-link {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.user-modal-close {
+	position: absolute;
+	top: -10px;
+	right: -10px;
+	border: none;
+	outline: none !important;
+	background-color: transparent;
+}

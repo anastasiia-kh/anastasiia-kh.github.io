@@ -2,6 +2,9 @@
 	.social-block_icons {
 		height: 180px;
 	}
+	.header-right {
+margin-top: 30px;
+}
 
 	.page {
 		overflow: hidden;
@@ -405,7 +408,6 @@
 		right: 0;
 		width: 50%;
 		position: absolute !important;
-		/* width: 100%!important; */
 		width: 50% !important;
 	}
 
@@ -637,7 +639,7 @@
 
 	.page {
 		margin: 0 auto !important;
-		width: 105%;
+		width: 100%;
 	}
 
 	.home_top_card {

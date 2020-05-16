@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Nav } from 'react-bootstrap';
-import { OrderModalUser } from './Order_modalUser.jsx'
-import './Order_modalUser.scss';
+import { OrderModalUser } from './Order_modal_user.jsx'
+import './Order_modal_user.scss';
 import './Order_tab.scss';
 
 export class OrderTab extends Component {
