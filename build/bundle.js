@@ -49642,9 +49642,9 @@ var Order = /*#__PURE__*/function (_Component) {
         className: "center-table",
         sm: 8
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "center-table_top center-table_top_main-part "
+        className: "center-table_top center-table_top_main-part header-cakes "
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-        className: "center-table_top_header"
+        className: "center-table_top_header "
       }, "CAKES MENU"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
         className: "center-table_top_header-text"
       }, "Served daily between 12-5pm")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Order_table_jsx__WEBPACK_IMPORTED_MODULE_2__["OrderTable"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {

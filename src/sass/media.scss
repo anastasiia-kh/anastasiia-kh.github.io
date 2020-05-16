@@ -144,7 +144,7 @@
 
 @media (max-width: 1350px) {
 	.home_top_card {
-		height: 700px;
+		height: 700px!important;
 	}
 
 	.social-block_icons {
@@ -177,7 +177,7 @@
 
 @media (max-width: 1200px) {
 	.home_top_card {
-		height: 650px;
+		height: 650px!important;
 	}
 
 	.modal-item-close {
@@ -198,9 +198,7 @@
 		height: 600px;
 		margin-right: 0 !important;
 	}
-	// .modal-right{
-	// 		margin-top: -40%;
-	// }
+
 	.modal-right_header_link {
 		right: 20px;
 	}
@@ -220,6 +218,8 @@
 
 	.modal-wrapper {
 		padding: 0;
+		width: 100%!important;
+		height: 100% !important;
 	}
 
 	.carousel-control-prev-icon,
@@ -229,6 +229,15 @@
 }
 
 @media (max-width: 1000px) {
+	.contact-container_center_text_left::after{
+		display: none;
+	}
+	.contact-container_center{
+		padding-left: 0!important;
+	}
+	.input-form_name{
+		margin-bottom: 0!important;
+	}
 	.fixed-top {
 		position: absolute !important;
 	}
@@ -367,7 +376,7 @@
 
 	.modal-carousel {
 		width: 100%;
-		height: 50vh;
+		height: 100%;
 	}
 
 	.carousel-inner {
@@ -603,6 +612,9 @@
 }
 
 @media (max-width: 767px) {
+		.input-form_name{
+		margin-bottom: 20px!important;
+	}
 	.header-left {
 		margin: 150px 0 0 0;
 		padding: 0;
@@ -625,6 +637,7 @@
 
 	.page {
 		margin: 0 auto !important;
+		width: 105%;
 	}
 
 	.home_top_card {
@@ -660,10 +673,6 @@
 		content: none;
 	}
 
-	.responsive-navbar-nav_mobile {
-		background-color: white;
-		height: 100vh;
-	}
 
 	.modal-carousel {
 		height: 100% !important;
@@ -684,7 +693,6 @@
 
 	.responsive-navbar-nav_mobile {
 		background-color: white;
-		height: 100vh;
 		width: 100vw;
 		display: flex;
 		z-index: 3;
@@ -692,6 +700,9 @@
 		margin: 0 !important;
 		padding: 0 !important;
 		overflow: hidden;
+		height: 120vh;
+	
+
 	}
 
 	.cosial-icon {
@@ -784,8 +795,14 @@
 }
 
 @media (max-width: 575px) {
-	.home_top_card {
-		height: 404px;
+	.home_top_card:first-child{
+		margin-bottom: 0!important;
+	}
+			.center-box-color_text{
+			font-size: 16px!important;
+		}
+	.home_top_card {	
+		height: 490px!important;
 	}
 
 	.social-block_icons {
@@ -802,19 +819,32 @@
 	}
 
 	.home_top-content_box {
-		height: 220px;
+		height: 220px!important;
 		margin-bottom: 20px !important;
 	}
 	.top-img_text-box_text {
 		font-size: 25px !important;
-		margin-bottom: 10px;
+		margin-bottom: 10px!important;
 	}
 	.home_center-content_block {
 		margin-top: 0;
 	}
-	.home_top_card.card {
-		height: 670px;
-	}
+	.social-icon {
+    width: 31px!important;
+    height: 31px!important;
+}
+.about-page_content-text_top{
+	margin-top: 10px!important;
+}
+.about-page_content-discription, .about-page_content-header{
+	margin-bottom: 20px !important;
+}
+.about-page_content-header{
+	padding-bottom: 10px!important;
+}
+.contact-container_top-text{
+	margin-left: 0!important;
+}
 
 	.modal-wrapper {
 		display: block;
@@ -833,7 +863,7 @@
 	.modal-item {
 		width: 100% !important;
 		position: relative;
-		margin-top: 15%;
+		margin-top: 8%;
 		height: 50vh;
 	}
 	.modal-carousel {
@@ -937,7 +967,7 @@
 	}
 
 	.modal-right_text {
-		margin-top: 63vh;
+		margin-top: 43vh;
 	}
 
 	.modal-right_header_link {
@@ -1036,9 +1066,9 @@
 		height: 220px;
 	}
 
-	.home_top-content_box {
-		height: 120px;
-	}
+	// .home_top-content_box {
+	// 	height: 120px;
+	// }
 
 	.top-img_text-box_text {
 		font-size: 10px !important;

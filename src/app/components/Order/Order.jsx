@@ -22,8 +22,8 @@ export class Order extends Component {
                 <OrderTab />
               </Col>
               <Col className='center-table' sm={8} >
-                <div className='center-table_top center-table_top_main-part '>
-                  <p className='center-table_top_header'>CAKES MENU</p>
+                <div className='center-table_top center-table_top_main-part header-cakes '>
+                  <p className='center-table_top_header '>CAKES MENU</p>
                   <p className='center-table_top_header-text'>Served daily between 12-5pm</p>
                 </div>
                 <OrderTable />
